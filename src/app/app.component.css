@@ -1,0 +1,7 @@
+.card-grid {
+    grid-template-columns: 33% 33% 33%;
+    width: 100%;
+    display: grid;
+    gap: 16px;
+    padding: 16px;
+  }

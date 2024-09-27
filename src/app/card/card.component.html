@@ -1,1 +1,12 @@
-<p>{{ country.name.common }}</p>
+  <div class="country-card">
+    <div class="country-flag">
+      <img [src]="country.flags.svg" alt="{{ country.name }} Flag">
+    </div>
+    <div class="country-info">
+      <h2>{{ country.name.common }}</h2>
+      <p><strong>Capital:</strong> {{ country.capital }}</p>
+      <p><strong>Language:</strong> {{ languages }}</p>
+      <p><strong>Currency:</strong> {{ currencyName }} ({{ currencyKey }}/{{ currencySymbol }})</p>
+      <p><strong>Population:</strong> {{ population }}</p>
+    </div>
+  </div>  
